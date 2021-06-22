@@ -5,7 +5,7 @@ import './CourseInput.css';
 
 const CourseInput = props => {
   const [enteredValue, setEnteredValue] = useState('');
-  const [valid, setIsValid] = useState(true);
+  const [isValid, setIsValid] = useState(true);
 
   const goalInputChangeHandler = event => {
     if(event.target.value.trim().length > 0) {

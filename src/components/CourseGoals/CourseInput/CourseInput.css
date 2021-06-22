@@ -22,3 +22,13 @@
   background: #fad0ec;
   border-color: #8b005d;
 }
+
+/* quando sono attaccati vuol dire che un elemento deve avere entrambe le classi affinchè la regola venga eseguita*/
+.form-control.invalid input { 
+  border-color: red;
+  background-color: #ffd7d7;
+}
+
+.form-control.invalid label {
+  color: red
+}
